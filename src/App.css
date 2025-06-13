@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@font-face {
+  font-family: font-logo;
+  src: url("../fonts/blush-asliring.regular.otf") format("opentype");
+}
+@font-face {
+  font-family: font-head;
+  src: url("../fonts/Rockstar-ExtraBold.otf") format("opentype");
+}
+body{
+  /* background-color: rgba(77, 80, 83, 0.991); */
+  background-color:#fef3f8;
+  background: linear-gradient(45deg,#fef3f8,#f5e7e7);
+}
+.font{
+  font-family:sans-serif;
+  /* font-family: Poppins; */
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.font-logo{
+  font-family: font-logo;
+  letter-spacing: 1px;
+}
+.font-head{
+  font-family: font-head;
+}
+.react-icon{
+  font-size: 20px;
+}
+Link{
+  cursor: pointer;
+}
+.yellow{
+  background: linear-gradient(45deg,goldenrod,rgb(165, 121, 8));
+}
+.maroon{
+  background: linear-gradient(45deg,maroon,rgb(85, 29, 29));
+  color:#fef3f8;
+}
+@media screen and (max-width: 768px) {
+  .search-comp {
+    display: none !important;
+  }
+  .menu-icon{
+    display:block;
+  }
+}
+
+@media screen and (max-width: 500px){
+  .heading{
+    display:none;
+  }
+}
+Button:hover .maroon{
+  background-color: #000;
+}
+.maroon-text{
+  background: linear-gradient(45deg,maroon,rgb(85, 29, 29));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.yellow-text{
+  background: linear-gradient(45deg,goldenrod,rgb(165, 121, 8));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
