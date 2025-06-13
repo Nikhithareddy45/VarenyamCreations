@@ -25,7 +25,7 @@ function Footer() {
       <div className="flex items-center lg:justify-center w-[90%] gap-15 flex-wrap mb-5 mt-5 p-5 sm:justify-start">
         <div className="flex flex-col gap-3">
           <h3 className="font-logo yellow-text lg:text-2xl md:text-xl sm:text-lg ">Visit Our Store</h3>
-          <p className="font">
+          <p className="font text-white">
             123 Jewelry Street
             <br />
             Vanasthalipuram, LB Nagar
@@ -35,15 +35,15 @@ function Footer() {
         </div>
         <div className="flex flex-col gap-2">
             <h3  className="font-logo yellow-text lg:text-2xl md:text-xl sm:text-lg ">Contact Us</h3>
-            <p className="font"> <strong>Phone:</strong> +91 98765 43210</p>
-             <p className="font"> <strong>Email:</strong> <Link to="">varenyamcreations@gmail.com</Link></p>
-             <p className="font"> <strong>WhatsApp:</strong> +91 98765 43210</p>
+            <p className="font text-white"> <strong>Phone:</strong> +91 98765 43210</p>
+             <p className="font text-white"> <strong>Email:</strong> <Link to="">varenyamcreations@gmail.com</Link></p>
+             <p className="font text-white"> <strong>WhatsApp:</strong> +91 98765 43210</p>
         </div>
         <div className="flex flex-col gap-2">
             <h3 className="font-logo yellow-text lg:text-2xl md:text-xl sm:text-lg ">Store Hours</h3>
-            <p className="font"> <strong>Mon-Sat:</strong> 10:00 AM - 8:00 PM </p>
-            <p className="font"> <strong>Sunday:</strong>  11:00 AM - 6:00 PM</p>
-            <p className="font"> <strong>Online:</strong> 24/7 Available</p>
+            <p className="font text-white"> <strong>Mon-Sat:</strong> 10:00 AM - 8:00 PM </p>
+            <p className="font text-white"> <strong>Sunday:</strong>  11:00 AM - 6:00 PM</p>
+            <p className="font text-white"> <strong>Online:</strong> 24/7 Available</p>
         </div>
       </div>
       <hr/>
