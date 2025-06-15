@@ -8,7 +8,7 @@ function HomeContainer() {
       <p className='font text-center m-3 text-md sm:text-lg md:text-lg lg:text-xl'>Handcrafted with Love❤️</p>
       <Slider/>
       <div className="buttons flex gap-3 mt-5  ">
-        <Button className=" yellow pr-9 pl-9">Shop Now</Button>
+        <Button className="yellow pr-9 pl-9">Shop Now</Button>
         <Button className="maroon pr-9 pl-9">View Collections</Button>
       </div>
     </div>

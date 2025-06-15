@@ -19,8 +19,8 @@ export default function Slider() {
   return (
     <Swiper
       pagination={{ dynamicBullets: true }}
-      // autoplay={{ delay: 2000, disableOnInteraction: false }}
-      // modules={[Pagination, Autoplay]}
+      autoplay={{ delay: 2000, disableOnInteraction: false }}
+      modules={[Pagination, Autoplay]}
       className="mySwiper w-[80%] m-auto h-auto  [@media(max-width:430px)]:w-[90%] [@media(min-width:1000px)]:h-[400px] rounded"
     >
       <SwiperSlide>
